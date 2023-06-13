@@ -11,6 +11,10 @@
 		CED7A14F2A371DF900797B20 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A14E2A371DF900797B20 /* ContentView.swift */; };
 		CED7A1512A371DFA00797B20 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED7A1502A371DFA00797B20 /* Assets.xcassets */; };
 		CED7A1542A371DFA00797B20 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CED7A1532A371DFA00797B20 /* Preview Assets.xcassets */; };
+		CED7A15D2A37372400797B20 /* ListRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A15C2A37372400797B20 /* ListRow.swift */; };
+		CED7A15F2A3745E600797B20 /* UserData.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A15E2A3745E600797B20 /* UserData.swift */; };
+		CED7A1612A37486600797B20 /* UserTask.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A1602A37486600797B20 /* UserTask.swift */; };
+		CED7A1632A3761AD00797B20 /* Draft.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED7A1622A3761AD00797B20 /* Draft.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		CED7A14E2A371DF900797B20 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		CED7A1502A371DFA00797B20 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CED7A1532A371DFA00797B20 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CED7A15C2A37372400797B20 /* ListRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListRow.swift; sourceTree = "<group>"; };
+		CED7A15E2A3745E600797B20 /* UserData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserData.swift; sourceTree = "<group>"; };
+		CED7A1602A37486600797B20 /* UserTask.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTask.swift; sourceTree = "<group>"; };
+		CED7A1622A3761AD00797B20 /* Draft.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Draft.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +61,10 @@
 			children = (
 				CED7A14C2A371DF900797B20 /* MyTodoApp.swift */,
 				CED7A14E2A371DF900797B20 /* ContentView.swift */,
+				CED7A1622A3761AD00797B20 /* Draft.swift */,
+				CED7A1602A37486600797B20 /* UserTask.swift */,
+				CED7A15E2A3745E600797B20 /* UserData.swift */,
+				CED7A15C2A37372400797B20 /* ListRow.swift */,
 				CED7A1502A371DFA00797B20 /* Assets.xcassets */,
 				CED7A1522A371DFA00797B20 /* Preview Content */,
 			);
@@ -137,8 +149,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED7A1612A37486600797B20 /* UserTask.swift in Sources */,
 				CED7A14F2A371DF900797B20 /* ContentView.swift in Sources */,
 				CED7A14D2A371DF900797B20 /* MyTodoApp.swift in Sources */,
+				CED7A1632A3761AD00797B20 /* Draft.swift in Sources */,
+				CED7A15F2A3745E600797B20 /* UserData.swift in Sources */,
+				CED7A15D2A37372400797B20 /* ListRow.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
